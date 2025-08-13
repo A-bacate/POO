@@ -9,7 +9,7 @@
         this.idade = idade;
     }
     seApresentar(){
-        return `Olá, eu sou o ${nome} e tenho ${idade} anos.`
+        return `Olá, eu sou o ${this.nome} e tenho ${this.idade} anos.`
     }
  }
  module.exports = Pessoa
